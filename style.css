@@ -11,9 +11,14 @@ h1,h2,h3,h4,h5,h6{
 p{
     font-family: "poppins", sans-serif;
     font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
 }
 h1{
     font-size: 90px;
+}
+h2{
+    font-size: 60px;
 }
 .name h2{
     font-family: "poppins", sans-serif;
@@ -23,11 +28,19 @@ h1{
 
 }
 .btn-branding{
-    background: rgb(170, 255, 212);
+    background: rgb(160, 249, 204);
     border-radius: 4px;
     color: white;
     font-size: 20px;
     line-height: 27px;
     padding: 12px 20px;
 
+}
+.btn-branding-outline{
+    border:1px solid rgb(139, 233, 186);
+    color: rgb(139, 233, 186);
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 12px 20px;
 }
