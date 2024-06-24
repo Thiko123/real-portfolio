@@ -44,3 +44,23 @@ h2{
     line-height: 27px;
     padding: 12px 20px;
 }
+@media (max-width: 900px) {
+    h1 {
+      font-size: 44px;
+      line-height: 2;
+    }
+  
+    h2 {
+      font-size: 44px;
+    }
+  
+    .name {
+      padding: 80px 20px;
+    }
+  
+    .project-desciption {
+      padding: 0;
+      text-align: center;
+    }
+  }
+  
